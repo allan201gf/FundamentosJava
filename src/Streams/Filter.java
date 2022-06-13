@@ -16,10 +16,13 @@ public class Filter {
 
         List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4, a5, a6);
 
+//        alunos.stream()
+//                .filter(a -> a.nota >= 7)
+//                .map(a -> "Parabens! " + a.nome + " Você foi aprovado(a)")
+//                .forEach(System.out::println);
+
         alunos.stream()
-                .filter(a -> a.nota >= 7)
-                .map(a -> "Parabens! " + a.nome + " Você foi aprovado(a)")
-                .forEach(System.out::println);
+                .filter(a -> a.nota >= 7).forEach(aluno -> System.out.println(aluno));
 
 
     }
