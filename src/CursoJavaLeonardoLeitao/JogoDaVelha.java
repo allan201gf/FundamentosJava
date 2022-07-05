@@ -1,4 +1,4 @@
-/*
+package CursoJavaLeonardoLeitao;/*
  * Jogo da velha desemvolvido em Java;
  * O jogo funciona apenas através do console;
  *
